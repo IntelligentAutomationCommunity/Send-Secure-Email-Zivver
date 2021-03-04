@@ -19,6 +19,10 @@ Please understand that this subtask is updated with a subtask from the [CTX-Conf
 - the standard SMTP server
 - the Secure Email service from Zivver
 
+# Installation Instructions
+Download the Studio Package file and Import it into your Cortex Environment.
+Don't forget to apply rights using the Studio Authorization module.
+
 ## Cortex Config Store configuration
 Use the Cortex Config Store to create the following 2 Areas:
 - Email-Service
@@ -36,3 +40,5 @@ Do the same for the Secure-Email-Service but this time configure it with the SMT
 
 That's it.
 The next time you want to send an email using the subtask fromm this package you do not have to specifiy the email server anymore (i_mail-server input parameter)
+
+:thumbsup: Success! :wink:
