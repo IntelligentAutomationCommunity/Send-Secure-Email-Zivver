@@ -38,6 +38,9 @@ Next, configure the Email-Service with the SMTP details as currently used by you
 Don't forget to encrypt the value for the SMTP-username and SMTP-password parameters.
 Do the same for the Secure-Email-Service but this time configure it with the SMTP credentials from Zivver or your other secure email service (e.g. Egress).
 
+## Zivver configuration
+In Zivver you need to have the module Mail-submission enabled and a username and password created. Those are required to be entered in the Secure-Email-Service parameters in the Cortex ConfigStore. 
+
 That's it.
 The next time you want to send an email using the subtask fromm this package you do not have to specifiy the email server anymore (i_mail-server input parameter)
 
